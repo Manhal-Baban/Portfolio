@@ -15,7 +15,7 @@ Each project includes a GitHub repository and a live demo:
 
 ### 🐾 Zoo (JavaScript OOP Project)
 
-- **GitHub:** [ZOO GitHub Repo](https://github.com/Manhal-Baban/Programming/tree/main/JS-kurssi/07_viikko/ZOO)
+- **GitHub:** [ZOO GitHub Repo](https://github.com/Manhal-Baban/Portfolio/tree/main/Simple%20Zoo)
 - **Live Demo:** [Zoo Website](http://127.0.0.1:5500/Simple%20Zoo/zoo.html)
 - **Description:** Object-oriented site that displays animal info using JavaScript constructors and DOM manipulation.
 
@@ -23,7 +23,7 @@ Each project includes a GitHub repository and a live demo:
 
 ### 🎉 Flex-Fest (HTML & CSS Flexbox)
 
-- **GitHub:** [Flex-Fest GitHub Repo](https://github.com/Manhal-Baban/Programming/tree/main/HTML-kurssi/06_viikko/Flex-Fest)
+- **GitHub:** [Flex-Fest GitHub Repo](https://github.com/Manhal-Baban/Portfolio/tree/main/Flex-Fest)
 - **Live Demo:** [Flex-Fest Site](http://127.0.0.1:5500/Flex-Fest/flexfest.html)
 - **Description:** Festival-themed landing page made using Flexbox for layout and responsive design.
 
@@ -31,7 +31,7 @@ Each project includes a GitHub repository and a live demo:
 
 ### 📦 Order Summary (Frontend Mentor Challenge)
 
-- **GitHub:** [Order Summary GitHub Repo](https://github.com/Manhal-Baban/Programming/tree/main/HTML-kurssi/order-summary-component-main)
+- **GitHub:** [Order Summary GitHub Repo](https://github.com/Manhal-Baban/Portfolio/tree/main/order-summary)
 - **Live Demo:** [Order Summary Demo](http://127.0.0.1:5500/order-summary/index.html)
 - **Description:** Responsive component layout focusing on clean structure and styling.
 
@@ -47,7 +47,7 @@ Each project includes a GitHub repository and a live demo:
 
 ### 🗂️ Summer Project – Task Manager
 
-- **GitHub:** [Summer Project GitHub Repo](https://github.com/Manhal-Baban/Portfolio/tree/main/Summer%20Project)
+- **GitHub:** [Summer Project GitHub Repo](https://github.com/Manhal-Baban/Portfolio/tree/main/My%20Summer%20Project)
 - **Live Demo:** [Task Manager Demo](http://127.0.0.1:5500/My%20Summer%20Project/index.html)
 - **Description:** A simple to-do list project created during summer, built with vanilla JavaScript and `localStorage`.
 
@@ -55,7 +55,7 @@ Each project includes a GitHub repository and a live demo:
 
 ### 🛍️ Product Preview Card (Frontend Mentor)
 
-- **GitHub:** [Preview Card GitHub Repo](https://github.com/Manhal-Baban/Programming/tree/main/HTML-kurssi/Fronted%20Mentor/product-preview-card/product-preview-card-component-main)
+- **GitHub:** [Preview Card GitHub Repo](https://github.com/Manhal-Baban/Portfolio/tree/main/Fronted%20Mentor)
 - **Live Demo:** [Product Preview Card](http://127.0.0.1:5500/Fronted%20Mentor/index.html)
 - **Description:** Clean and responsive product card challenge, focusing on layout accuracy and mobile-first design.
 
