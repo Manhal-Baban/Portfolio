@@ -20,15 +20,32 @@ btn.addEventListener("click", () => {
 const form = document.getElementById("contactForm");
 const formMsg = document.getElementById("formMsg");
 
-form.addEventListener("submit", (e) => {
+form.addEventListener("submit", async (e) => {
   e.preventDefault(); // prevent page reload
 
-  // Show confirmation message
-  formMsg.textContent = "✅ Message sent! I’ll get back to you soon.";
-  formMsg.style.color = "#00bcd4"; // your accent color
+  const formData = new FormData(form);
 
-  // Clear form fields
-  form.reset();
+  try {
+    const response = await fetch(form.action, {
+      method: "POST",
+      body: formData,
+      headers: {
+        Accept: "application/json",
+      },
+    });
+
+    if (response.ok) {
+      formMsg.textContent = "✅ Message sent! I’ll get back to you soon.";
+      formMsg.style.color = "#00bcd4";
+      form.reset();
+    } else {
+      formMsg.textContent = "❌ Oops! Something went wrong.";
+      formMsg.style.color = "red";
+    }
+  } catch (err) {
+    formMsg.textContent = "❌ Error sending message.";
+    formMsg.style.color = "red";
+  }
 
   // Hide message after 5 seconds
   setTimeout(() => {

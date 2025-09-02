@@ -201,7 +201,21 @@
       <div class="footer-container">
         <h2>Contact Me</h2>
 
-        <form id="contactForm" autocomplete="off">
+        <form
+          id="contactForm"
+          autocomplete="off"
+          action="https://formsubmit.co/89ff7d461ad4295497002bbada5030d9"
+          method="POST"
+        >
+          <!-- Hidden fields to improve email handling -->
+          <input
+            type="hidden"
+            name="_subject"
+            value="New message from portfolio form"
+          />
+          <input type="hidden" name="_replyto" value="" />
+
+          <!-- Form fields -->
           <label for="name">Name</label>
           <input type="text" id="name" name="name" required />
 
@@ -212,7 +226,8 @@
           <textarea id="message" name="message" rows="5" required></textarea>
 
           <button type="submit" class="btn">Send Message</button>
-          <!-- simple feedback msg -->
+
+          <!-- Feedback message -->
           <p id="formMsg" class="form-msg"></p>
         </form>
       </div>
